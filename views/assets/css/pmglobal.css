@@ -144,3 +144,82 @@
         left: 3%;
     }
  }
+
+
+
+
+/* Edits to the mobile display of the add tasks form */
+
+@media screen and (max-width: 480px) {
+
+    .pm-task-form .input-area .input-action-wrap .task-create-form {
+        display: inline;
+    }
+    .task-submit-wrap .pm-button.submit.pm-secondary {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .task-submit-wrap .pm-button.submit.pm-primary {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .pm-task-form .input-area .action-icons {
+        z-index: 0;
+    }
+    .pm-task-form .input-area .input-action-wrap .task-create-form .field .input-field {
+        padding-right: 70px;
+    }
+    .my-task-filter-wrap .form {
+        display: inline;
+    }
+    .pm-project-group {
+        display: block;
+    }
+    .widefat td, .widefat th {
+        padding: 2px 10px !important;
+    }
+    .widefat td:first-child {
+        font-weight: bold;
+    }
+    table.current-task-table thead {
+        display: none;
+    }
+    table.current-task-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #e8e9eb;
+    }
+    table.current-task-table td {
+        display: block;
+    }
+    table.current-task-table td:before {
+        content: attr(aria-label);
+        float: left;
+        font-weight: bold;
+    }
+    .dashicons{
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+    .pm-my-tasks .calendar-task-modal .popup-mask .popup-container {
+        height: 100% !important;
+        top: 0px !important;
+    }
+    #wedevs-project-manager .popup-mask .popup-container .popup-body {
+        overflow: visible;
+        overflow-x: visible;
+    }
+    .my-task-filter-wrap .field input {
+        width: 100%;
+    }
+    .my-task-filter-wrap .button.button-primary.submit-button{
+        width: 100%;
+    }
+    .my-task-filter-wrap .field select {
+        width: 98%;
+    }
+    .my-task-filter-wrap .form .project-dropdown-wrap {
+        width: 98%;
+    }
+}
